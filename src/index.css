@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  border: o;
+  box-sizing: border-box;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: aqua;
+}
+
+.offcanvas {
+  transition: transform 0.6s ease-in-out !important;
+}
+
+.offcanvas-backdrop {
+  transition: opacity 0.6s ease-in-out !important;
+}
+.hero{
+background-color: #334155;
+}
+.nav-item:hover{
+background-color: green;
+color: white;
+}
+
+/* Smooth background + text transition */
+.transition-link {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.active-link {
+  background-color: #0d6efd; /* Bootstrap primary blue */
+  color: #fff !important;
+}
